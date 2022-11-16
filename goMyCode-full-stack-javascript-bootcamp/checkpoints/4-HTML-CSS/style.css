@@ -1,0 +1,95 @@
+/* all element universal selector */
+* {
+  margin: 4px;
+  /* padding: 4px; */
+  font-family: sans-serif;
+  color: azure;
+  letter-spacing: 1px;
+}
+/* body {
+  display: inline-block;
+} */
+.bannerx {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 50%;
+  margin: auto;
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bannerx ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 20px;
+}
+.bannerx ul li a {
+  color: azure;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.bannerx > ul > li > a:hover {
+  color: red;
+}
+p {
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+figcaption {
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+img {
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+video {
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;  center a video or img*/
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+iframe {
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+body {
+  background: rgb(31, 31, 31);
+  background: linear-gradient(
+    90deg,
+    rgba(31, 31, 31, 1) 0%,
+    rgba(36, 36, 36, 1) 10%,
+    rgba(73, 73, 73, 1) 62%
+  );
+}
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+hr {
+  height: 1px;
+  background-color: azure;
+  border: none;
+}
